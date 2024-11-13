@@ -8,7 +8,7 @@ function Eyes() {
       let mouseX = e.clientX;
       let mouseY = e.clientY;
   
-      // Corrected `Window` to `window`
+    
       let deltaX = mouseX - window.innerWidth / 2;
       let deltaY = mouseY - window.innerHeight / 2;
   
